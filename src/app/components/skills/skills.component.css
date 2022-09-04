@@ -1,0 +1,29 @@
+.row{
+    background-color: #EFDECD;
+    padding: 5%;
+    font-weight: bold;
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+caption {
+    caption-side: top;
+    font-weight: bold;
+    color: #706960;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+}
+table{
+    text-align: center;
+    margin:0 auto;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table, th, td{
+    border: 2px solid #706960;
+    border-collapse: collapse;
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 10px;
+}

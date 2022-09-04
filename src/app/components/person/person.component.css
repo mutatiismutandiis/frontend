@@ -1,0 +1,52 @@
+.row{
+    background-color: #EFDECD;
+    padding: 2%;
+}
+
+#profile{
+    position: absolute;
+    width: 20%;
+    border-radius: 80%;
+    box-shadow: 3px 3px 3px #EFDECD;
+    left: 5%;
+    top: 400px;
+}
+
+.center-colum {
+    width: 20%;
+    text-align: center;
+    margin-left: 250px;
+}
+
+#name{
+    font-weight: bold;
+    color: #706960;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    margin-top: 5%;
+    margin-left: 10px;
+}
+
+#title{
+    font-weight: bold;
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.right-colum{
+    width: 50%;
+    text-align: center;
+    margin-left: 600px;
+    margin-top: -150px;
+}
+
+h1{
+    font-weight: bold;
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

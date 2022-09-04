@@ -1,0 +1,47 @@
+.row{
+    background-color: #EFDECD;
+    padding: 5%;
+}
+
+caption{
+    caption-side: top;
+    font-weight: bold;
+    color: #706960;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+}
+
+table{
+    margin:0 auto;
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 2px solid #706960;
+    border-collapse: collapse;
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding: 10px;
+}
+
+#title{
+    font-weight: bold;
+    text-align: center;
+}
+
+#date{
+    text-align: center;    
+}
+
+#city{
+    font-style: italic;
+}
+
+#skills{
+    font-variant: small-caps;
+}
+
+#title #city #company{
+    text-align-last: center;
+}
