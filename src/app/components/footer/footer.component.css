@@ -1,0 +1,12 @@
+.row{
+    background-color: #EFDECD;
+    padding: 5%;
+}
+
+footer{
+    color: #706960;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
