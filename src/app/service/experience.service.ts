@@ -13,6 +13,6 @@ export class ExperienceService {
   constructor(private http:HttpClient) { }
 
   public getExperience(): Observable<experience>{
-    return this.http.get<experience>(this.URL+'find/profile');
+    return this.http.get<experience>(this.URL+'find/profile/{id}');
   }
 }
