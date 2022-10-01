@@ -8,11 +8,11 @@ import { education } from '../model/education.model';
 })
 export class EducationService {
 
-  URL = 'https://portfoliocardone.herokuapp.com/education';
+  URL = 'https://portfoliocardone.herokuapp.com/education/';
 
   constructor(private http:HttpClient) { }
 
   public getEducation(): Observable<education>{
-    return this.http.get<education>(this.URL+'find/profile');
+    return this.http.get<education>(this.URL+'find/profile/{id}');
   }
 }
